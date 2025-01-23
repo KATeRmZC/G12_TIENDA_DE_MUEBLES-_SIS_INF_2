@@ -10,4 +10,5 @@ package com.mycompany.sis_inf_2;
  */
 public class Mueble {
     
+    
 }
