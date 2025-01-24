@@ -9,12 +9,10 @@ package com.mycompany.sis_inf_2;
  * @author ECTOR
  */
 public class HI {
+    public static void main(String[] args) {
+        System.out.println("¡Hola, mundo!");
     
-   System.out.println("I forget everything");
-    
-    
-    
-    
+    }
     
     
     
