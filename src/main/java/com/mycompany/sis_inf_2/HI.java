@@ -10,7 +10,7 @@ package com.mycompany.sis_inf_2;
  */
 public class HI {
     
-    
+   System.out.println("I forget everything");
     
     
     
