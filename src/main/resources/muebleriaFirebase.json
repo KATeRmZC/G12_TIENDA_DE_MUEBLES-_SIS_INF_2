@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "muebleria-e6c4f",
+  "private_key_id": "c04762bee9dd5f2d402ce0dd91265cd555cb8c88",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDJ5xYa5osxGSnw\nIBt/qP3BT/Ex5Tbi3RqNsU8eY0LaAtSAFSLzpdsFx+K9OVrIBHTYugh9glEbBCzL\nTaOQF77NAE3MKqn6oqSWLiNgtmKG5wzRxGw+z6cPsa5fxbEDkBm3u9eFG3Fxb5q0\nSU87N/gY8F0KkBIQiebuiQV+Sd+gWAZPeVmjAJg+WohCbB5RggAdLwQypNks4LJP\nRJ4RM3Tn1o/FA8d7Ne+zUCbWglOsS/5RuwNTxOTpwwbjmCyzyrLgS5xPfG3UPy7U\nFRihxw6l51+JyN603JVBaqhbu4Jq4J1HfDF4MFCRa9zi4IVW3FPcUDMVjetjkPCr\n6V8BEytdAgMBAAECggEAESYiIAXN880l3UH04/p4FzfRjkHgUBOkoj1ZsYSP1JGh\n+AETl2tSd6K7NQROnCeYvyHJ/9MWTXukzF3bUy1ZJPNuKDXFe0beQO1JTvke1EOC\nuLx8zzb3AyO94l+Zweo27P609xbWI2Lt2ntRkf+WgJPF61RCXIpCBae4wjnHF0jL\n89ovX/KEg7ToNilGD2+LBN2+PzC0PrHyX4JhA+Lcv18I/SexbIkdmBmhCnApUKgr\nHEdL9Df2XL9K1xDP0MWDTg+1slGx1v/lBYho+VLOFNz+FQ2WwAzyJXrz+YCwfetc\ns2xGAletuEcBWkIvr6+7GYKDQGU0nyhYa5GPBIL+UQKBgQD5LjwYpx0xx2MTGw3K\naMOi7qjuOh0iuuI+wcrNeFxF0X5WUsgWqEqAkZuGt8Dhdw6yYW7ATIdUi583ii6/\nXvDpgPVElAR1cHvmpXlxYCQUtC+nGrtOHiS5bK42okGczUMs5NQxmWQuTOnqkra4\neVovu6vHDbGUO9kGsF9D+wwGqQKBgQDPbZ8QF1Nuo/iKyeVL5bn/QKePl8VLo7kB\nFkhgBpmTMgpNQkfls4HQQFjkpCle2tM1tIn4Crdun/dy/G/wpn1j8Hqpl5QzUPE/\nVRqy4Ydo+lZXJCDdzGy/vCCQs05YYJIevbdouIaMjRdt2f3iBrf7RyFXFjYcaPS1\nWgaSaKbTlQKBgFWfxZbTFf0c/rZ5/WsoRNGgIPx7i7d7cHMQNJgWW97B9h/Dom3m\ntnMnlcHdMrJHLw2s3VnG8lnjAHsdSKMKBM64OY+vLTkNxgWjpu+Gkd9ra1SIowRc\n51GwPs0XRGSVRBgRKblBdGNUmqy4bYFGce8lFgn4cqT1S8Y4pQO/KIrBAoGADcPL\ng2jY24W8D5G4SqITBrJGrEu5Bvz1YPIWmXC2rkLq1heo58BSw/wRKhMOv8GrtGun\noDMt2wR4ikPgNcsGlSQ3L5vkdMdRSw+dtvMqZjf+lMfL+ov/R3X3f0K21zyJVcrn\nKebc3uTaAisuItqpSN5+guXxb08ztfkkaIDTWUUCgYBJ0exFvy7JblGTMcB/qwAN\nGjYA1J92B3OQsPwd2HxStAHV3lGn5M/sPuYCqlup9DPo8HVvscewPIkP/4t0enWZ\navqIFiz3mFGxAcrGqPoP/6SM+MvnNvl3YfB46gnyo6CwNAov111SpVM2tX+B4JoE\nD4MIfp0DoSH28AnMXx4z6g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@muebleria-e6c4f.iam.gserviceaccount.com",
+  "client_id": "103339740505610240479",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40muebleria-e6c4f.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

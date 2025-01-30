@@ -17,8 +17,12 @@ public class SIS_INF_2 extends javax.swing.JFrame {
         initComponents();
         
         // Agregar el panel ventana_produc1
-    ventana_produc1 panel = new ventana_produc1();
-    this.add(panel);
+    ventana_produc1 panelcito = new ventana_produc1();
+    
+    pnlFondo.add(panelcito);
+    pnlFondo.revalidate();
+    pnlFondo.repaint();
+    
 
     // Ajustar el tamaño del JFrame al contenido
     this.pack();
@@ -33,17 +37,30 @@ public class SIS_INF_2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        pnlFondo = new javax.swing.JPanel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        javax.swing.GroupLayout pnlFondoLayout = new javax.swing.GroupLayout(pnlFondo);
+        pnlFondo.setLayout(pnlFondoLayout);
+        pnlFondoLayout.setHorizontalGroup(
+            pnlFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 696, Short.MAX_VALUE)
+        );
+        pnlFondoLayout.setVerticalGroup(
+            pnlFondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 442, Short.MAX_VALUE)
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addComponent(pnlFondo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addComponent(pnlFondo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -85,5 +102,6 @@ public class SIS_INF_2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel pnlFondo;
     // End of variables declaration//GEN-END:variables
 }
