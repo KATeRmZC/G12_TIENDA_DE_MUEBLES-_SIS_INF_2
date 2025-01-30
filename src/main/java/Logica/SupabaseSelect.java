@@ -26,6 +26,7 @@ public class SupabaseSelect {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        
     }
 
     public static void main(String[] args) {
