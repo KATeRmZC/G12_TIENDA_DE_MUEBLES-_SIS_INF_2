@@ -17,25 +17,22 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-/**
- *
- * @author ECTOR
- */
 public class Query {
-    private static final String URL = null;
-    private static final String USER=null;
-    private static final String PASSWORD=null;
+    private static final String URL = "jdbc:postgresql://aws-0-us-west-1.pooler.supabase.com:5432/postgres";
+    private static final String USER = "postgres.evyxcvhqzgimicjtbjpw";
+    private static final String PASSWORD = "player88";
+    
     public void agregarMueble(Mueble mueble) {
-        String sql = "INSERT INTO Mueble (id_Mueble, Tipo, material, descripcion, precio) VALUES (?, ?, ?, ?, ?)";
-
+        String sql = "INSERT INTO mueble (id_mueble, modelo, tipo, material, precio_venta, descripcion) VALUES (?, ?, ?, ?, ?, ?)";
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
 
             pstmt.setInt(1, mueble.getID_Mueble());
-            pstmt.setString(2, mueble.getTipo());
-            pstmt.setString(3, mueble.getMaterial());
-            pstmt.setString(4, mueble.getDescripcion());
-            pstmt.setString(5, mueble.getPrecio_Venta());
+            pstmt.setString(2, mueble.getModelo());
+            pstmt.setString(3, mueble.getTipo());
+            pstmt.setString(4, mueble.getMaterial());
+            pstmt.setString(5, mueble.getPrecio_Venta()); // Suponiendo que el precio es un BigDecimal
+            pstmt.setString(6, mueble.getDescripcion());
 
             pstmt.executeUpdate();
             System.out.println("Datos del mueble añadidos correctamente.");
@@ -44,6 +41,7 @@ public class Query {
             System.out.println("Error al insertar datos del mueble: " + e.getMessage());
         }
     }
+
     public void mostrarMensaje(String mensaje) {
         JFrame frame = new JFrame("Mensaje");
         JPanel panel = new JPanel();
@@ -67,9 +65,10 @@ public class Query {
         timer.setRepeats(false);
         timer.start();
     }
+
     public int codMax(){
-    int maxID=0;
-    String query = "SELECT MAX(ID_Muebles) AS MaxID FROM Mueble"; // Reemplaza con el nombre real de tu tabla
+        int maxID = 0;
+        String query = "SELECT MAX(id_mueble) AS MaxID FROM mueble"; // Reemplaza con el nombre real de tu tabla
         try (Connection con = DriverManager.getConnection(URL, USER, PASSWORD);
              Statement stmt = con.createStatement();
              ResultSet rs = stmt.executeQuery(query)) {
